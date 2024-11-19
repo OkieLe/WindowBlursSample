@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BlursSample" parent="android:Theme.Material.Wallpaper.NoTitleBar" />
+    <style name="Theme.BackgroundBlur.Demo" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackgroundBlurRadius">20dp</item>
+        <item name="android:windowBackground">#44BB86FC</item>
+    </style>
+    <style name="Theme.BackgroundBlur.Dialog.Demo" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackgroundBlurRadius">20dp</item>
+        <item name="android:windowBackground">#44BB86FC</item>
+    </style>
+    <style name="Theme.BlurBehind.Demo" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBlurBehindEnabled">true</item>
+        <item name="android:windowBlurBehindRadius">20dp</item>
+        <item name="android:windowBackground">#4403DAC5</item>
+    </style>
+    <style name="Theme.BlurBehind.Dialog.Demo" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBlurBehindEnabled">true</item>
+        <item name="android:windowBlurBehindRadius">20dp</item>
+        <item name="android:windowBackground">#4403DAC5</item>
+    </style>
+    <style name="Theme.DimBehind.Demo" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowBackground">#443700B3</item>
+    </style>
+    <style name="Theme.DimBehind.Dialog.Demo" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowBackground">#443700B3</item>
+    </style>
+</resources>
